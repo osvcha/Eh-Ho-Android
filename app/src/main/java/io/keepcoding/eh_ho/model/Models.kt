@@ -16,7 +16,6 @@ data class Topic(
     val id: Int,
     val title: String,
     val views: String,
-    val likes: String
-    //TODO
-    //Añadir resto de atributos necesarios del modelo
+    val likes: String,
+    val pinned: Boolean,
 )

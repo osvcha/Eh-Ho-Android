@@ -46,6 +46,7 @@ fun parseTopics(json: String?): List<Topic> = json?.let {
             title = topicJsonObject.getString("title"),
             views = topicJsonObject.getString("views"),
             likes = topicJsonObject.getString("like_count"),
+            pinned = topicJsonObject.getBoolean("pinned")
             //TODO
             //Rellenar el resto de atributos
         )
